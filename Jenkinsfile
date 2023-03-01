@@ -22,7 +22,7 @@ pipeline{
         
         stage('Docker Build'){
             steps{
-                sh "docker build . -t deepikameka/ubuntUapp:${DOCKER_TAG} "
+                sh "docker build . -t deepikameka/ubuntuapp:${DOCKER_TAG} "
             }
         }
         
